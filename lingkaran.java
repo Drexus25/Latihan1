@@ -6,7 +6,9 @@ class lingkaran extends bidangDuaDimensi {
         this.jari = jari;
     }
 
+    @Override
     public void luas() {
         System.out.println("Luas lingkaran : " + (3.14 * jari * jari));
     }
+
 }
